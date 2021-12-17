@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Практическая работа к уроку № 2.</title>
+<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<script src="1.js" type="text/javascript"></script>
+<script src="2.js" type="text/javascript"></script>
+<script src="3.js" type="text/javascript"></script>
+<script src="4.js" type="text/javascript"></script>
+<script src="5.js" type="text/javascript"></script>
+<script src="6.js" type="text/javascript"></script>
+
+<text>
+7. *Сравнить null и 0. Попробуйте объяснить результат. 
+Null - используется чтобы указать на отсутсвие вообще какого-либо значения, 0 же это уже конкретное значение.<br>
+Но сравним Null c 0 и посмотрим, что на результаты:<br>
+alert( null > 0 );  //  false<br>
+alert( null == 0 ); //  false<br>
+alert( null >= 0 ); //  true<br>
+Сравнения преобразуют null в число, рассматривая его как 0 => выражение null >= 0 истинно, а null > 0 ложно.<br>
+С другой стороны, для нестрогого равенства '==' значений null действует особое правило: эти значения ни <br>
+к чему не приводятся, они равны друг другу и не равны ничему другому => null == 0 ложно.<br>
+</text>
+
+<script src="8.js" type="text/javascript"></script>
+</body>
+</html>
